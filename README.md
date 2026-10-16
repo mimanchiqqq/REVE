@@ -1,6 +1,6 @@
 # REVE
 
-Training code for **REVE**, the lightweight event-verification method described in our ICASSP 2027 paper. REVE reuses pre-projector audio-encoder states from a large audio-language model. The encoder and decoder are not updated during readout training.
+Training code for **REVE**, a lightweight event-verification method described in a manuscript submitted to ICASSP 2027. The manuscript is under review and has not been accepted by the conference. REVE reuses pre-projector audio-encoder states from a large audio-language model. The encoder and decoder are not updated during readout training.
 
 This repository contains training and training-feature extraction code only. It does not include evaluation scripts, baseline implementations, model weights, AudioSet/DESED audio, or generated captions.
 
@@ -83,4 +83,4 @@ Threshold selection and all held-out measurements are evaluation steps, so they 
 - `training/fit_fusion.py`: development-only class-aware fusion training.
 - `training/common.py`: audio decoding and shared readout utilities.
 
-If you use this code, please cite the accompanying REVE paper. The repository does not redistribute third-party model checkpoints or datasets; obtain them under their original licenses.
+Citation information will be updated after the review process. The repository does not redistribute third-party model checkpoints or datasets; obtain them under their original licenses.

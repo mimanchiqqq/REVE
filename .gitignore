@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.env
+.env.*
+
+# Model and dataset artifacts are obtained from their original providers.
+models/
+checkpoints/
+data/audioset/data/
+artifacts/
+
+# Generated training artifacts.
+logs/
+outputs/
+wandb/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.parquet
+*.wav
+*.flac
+*.npy
+*.npz
+
+# Local credentials and editor files.
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
